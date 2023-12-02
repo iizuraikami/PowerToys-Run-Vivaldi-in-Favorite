@@ -4,14 +4,14 @@
 using System;
 using System.IO;
 using System.Text.Json;
-using Community.PowerToys.Run.Plugin.EdgeFavorite.Models;
+using Community.PowerToys.Run.Plugin.ChromeFavorite.Models;
 using Wox.Plugin.Logger;
 
-namespace Community.PowerToys.Run.Plugin.EdgeFavorite.Helpers
+namespace Community.PowerToys.Run.Plugin.ChromeFavorite.Helpers
 {
     public class FavoriteProvider : IFavoriteProvider
     {
-        private readonly string _path = Environment.ExpandEnvironmentVariables(@"%LOCALAPPDATA%\Microsoft\Edge\User Data\Default\Bookmarks");
+        private readonly string _path = Environment.ExpandEnvironmentVariables(@"%LOCALAPPDATA%\Google\Chrome\User Data\Default\Bookmarks");
         private readonly FileSystemWatcher _watcher;
         private FavoriteItem _root;
 

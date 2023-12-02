@@ -1,10 +1,10 @@
 ﻿// Copyright (c) Davide Giacometti. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-using Community.PowerToys.Run.Plugin.EdgeFavorite.Helpers;
-using Community.PowerToys.Run.Plugin.EdgeFavorite.Models;
+using Community.PowerToys.Run.Plugin.ChromeFavorite.Helpers;
+using Community.PowerToys.Run.Plugin.ChromeFavorite.Models;
 
-namespace Community.PowerToys.Run.Plugin.EdgeFavorite.Tests
+namespace Community.PowerToys.Run.Plugin.ChromeFavorite.Tests
 {
     public class MockFavoriteProvider : IFavoriteProvider
     {

@@ -4,9 +4,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Community.PowerToys.Run.Plugin.EdgeFavorite.Models;
+using Community.PowerToys.Run.Plugin.ChromeFavorite.Models;
 
-namespace Community.PowerToys.Run.Plugin.EdgeFavorite.Helpers
+namespace Community.PowerToys.Run.Plugin.ChromeFavorite.Helpers
 {
     public class FavoriteQuery : IFavoriteQuery
     {

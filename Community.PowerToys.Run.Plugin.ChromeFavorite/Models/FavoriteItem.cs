@@ -11,7 +11,7 @@ using Wox.Infrastructure;
 using Wox.Plugin;
 using Wox.Plugin.Logger;
 
-namespace Community.PowerToys.Run.Plugin.EdgeFavorite.Models
+namespace Community.PowerToys.Run.Plugin.ChromeFavorite.Models
 {
     public class FavoriteItem
     {
@@ -69,7 +69,7 @@ namespace Community.PowerToys.Run.Plugin.EdgeFavorite.Models
                     QueryTextDisplay = Path,
                     Action = _ =>
                     {
-                        Helper.OpenInShell($"microsoft-edge:{Url}");
+                        Helper.OpenInShell($"{Url}");
                         return true;
                     },
                     ToolTipData = new ToolTipData(Name, Url),
@@ -115,7 +115,7 @@ namespace Community.PowerToys.Run.Plugin.EdgeFavorite.Models
                         AcceleratorModifiers = ModifierKeys.Control,
                         Action = _ =>
                         {
-                            Helper.OpenInShell(@"shell:AppsFolder\Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge", $"-private {Url}");
+                            Helper.OpenInShell(@"shell:AppsFolder\Chrome", $"-private {Url}");
                             return true;
                         },
                     },
