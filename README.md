@@ -1,6 +1,6 @@
-# PowerToys Run: Chrome Favorite plugin
+# PowerToys Run: Vivaldi Favorite plugin
 
-This Repository is Forked from davidegiacometti/PowerToys-Run-EdgeFavorite for Chrome.
+This Repository is Forked from oct162/PowerToys-Run-ChromeFavorite for Vivaldi.
 
 # Build
 
