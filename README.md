@@ -1,6 +1,6 @@
 # PowerToys Run: Vivaldi Favorite plugin
 
-This Repository is Forked from oct162/PowerToys-Run-ChromeFavorite for Vivaldi.
+This Repository is Forked from octop162/PowerToys-Run-ChromeFavorite for Vivaldi.
 
 # Build
 
